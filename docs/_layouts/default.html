@@ -7,49 +7,7 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-static-top bs-docs-nav" role="navigation">
-
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{{site.baseurl}}/">Delta OA</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="{{site.baseurl}}/css/">CSS样式</a></li>
-                    <li><a href="{{site.baseurl}}/components/">组件</a></li>
-                    <li><a href="{{site.baseurl}}/javascript/">JavaScript 插件</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">English</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">v0.0.1 <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="active"><a href="#">v0.0.1</a></li>
-                            <li><a href="#">v0.1.0</a></li>
-                            <li><a href="#">v1.0.0</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Helper <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">IT OA</a></li>
-                            <li><a href="#">IT OA Help Desk</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div>
-
-    </nav>
+    {% include nav/main.html %}
 
 
     <div class="bs-docs-header" id="content" tabindex="-1">

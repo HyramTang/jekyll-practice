@@ -26,3 +26,7 @@ host: 127.0.0.1               #主机 ip/名称
 port: 9002                    #端口
 baseurl: ""                   #网站的根路径
 url: ""                       # the base hostname & protocol for your site, e.g. http://example.com
+
+# Custom
+current_version:  1.0.0
+docs_version:     1.0.0
